@@ -157,5 +157,13 @@
             transform:matrix3d(1.1,0,0,0,0,1.1,0,0,0,0,1,0,0,0,0,1)}
           }
 
-          
+          @font-face{
+			font-family: 'Font-Universal';
+			src: url(./Sexy_Beachy.ttf);
+		  }
+
+		  h1{
+			font-family: 'Font-Universal';
+			font-size: 35px;
+		  }
 		  

@@ -62,9 +62,6 @@ class Parallax extends Component{
 							</div>
 
 							<p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <a href="#services">
-                            <button type="button" className="orange-btn orange-btn-fullwidth"><span>Show More</span></button>
-                            </a>
                         </div>
 					</div>
 					
@@ -83,22 +80,14 @@ class Parallax extends Component{
 					</div>
 					
 					<div className="wrapper">
-						<svg width="81px" 
+						<div width="81px" 
 								 height="39px" 
 								 viewBox="0 0 81 39" 
 								 className="services-visual-01" 
 								 data-rellax-speed="-1"
 								 data-rellax-percentage="0.5">
-							<path d="M288.611662,1453.16328 C295.156066,1443.19928 216.938888,1402.98181 208.093655,1432.84528 C205.12378,1442.87269 273.666484,1475.91957 288.611662,1453.16328" transform="translate(-208.000000, -1422.000000)" fill="#c73262" stroke="none"></path>
-						</svg>
-						<svg width="36px" 
-								 height="36px" 
-								 viewBox="0 0 36 36" 
-								 className="services-visual-02" 
-								 data-rellax-speed="-1"
-								 data-rellax-percentage="0.5">
-							<path d="M434,1603 C434,1593.05862 425.940157,1585 416.00079,1585 C406.059843,1585 398,1593.05862 398,1603 C398,1612.94138 406.059843,1621 416.00079,1621 C425.940157,1621 434,1612.94138 434,1603" stroke="none" transform="translate(-398.000000, -1585.000000)" fill="#c73262"></path>
-						</svg>
+							<img src="img/flower-little-1.png" alt="img2"/>
+						</div>
 						
 						<div className="animated-element textbox">
 							<div className="headline section-label">
@@ -169,19 +158,9 @@ class Parallax extends Component{
 				</section>
                 <section className="section section-school background-purple" id="school" data-gui-state="">
 					<div className="section-index" data-rellax-speed="-4" data-rellax-percentage="0.5">
-                        <img src="./img/03.svg"/></div>
+                        <img src="./img/03.svg" alt="img3svg" /></div>
 					
 					<div className="wrapper">
-						<svg width="143px" height="124px" viewBox="0 0 143 124" className="school-visual-01" 
-								 data-rellax-speed="-2"
-								 data-rellax-percentage="0.5">
-							<path d="M172.059665,58.5946915 C253.280075,33.4314539 205.276963,100.711508 266.523695,110.984161 C327.770427,121.256813 300.780704,187.000202 237.457223,175.698697 C174.136415,164.399838 135.741944,69.8459437 172.059665,58.5946915" transform="translate(-158.000000, -53.000000)" fill="#c73262" stroke="none"></path>
-						</svg>
-						<svg width="36px" height="36px" viewBox="0 0 36 36" className="school-visual-02" 
-								 data-rellax-speed="-2"
-								 data-rellax-percentage="0.5">
-							<path d="M434,1603 C434,1593.05862 425.940157,1585 416.00079,1585 C406.059843,1585 398,1593.05862 398,1603 C398,1612.94138 406.059843,1621 416.00079,1621 C425.940157,1621 434,1612.94138 434,1603" stroke="none" transform="translate(-398.000000, -1585.000000)" fill="#c73262"></path>
-						</svg>
 						
 						<div className="animated-element textbox">
 							<div className="headline section-label">
